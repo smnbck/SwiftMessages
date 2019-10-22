@@ -168,6 +168,7 @@
 		86B48AFA1D5A41C900063E2B /* SwiftMessagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesTests.swift; sourceTree = "<group>"; };
 		86B48AFC1D5A41C900063E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86BBA8F81D5E01FC00FE8F16 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardView.xib; path = Resources/CardView.xib; sourceTree = "<group>"; };
+		EC9437D4235F2E300034D8E2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +287,7 @@
 		867E21461D4D01D500594A41 = {
 			isa = PBXGroup;
 			children = (
+				EC9437D4235F2E300034D8E2 /* Package.swift */,
 				86B48AED1D5A41C900063E2B /* SwiftMessages */,
 				86B48AF91D5A41C900063E2B /* SwiftMessagesTests */,
 				867E21501D4D01D500594A41 /* Products */,
@@ -675,7 +677,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = SwiftMessages/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.swiftkick.SwiftMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -702,7 +704,7 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = SwiftMessages/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = it.swiftkick.SwiftMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
